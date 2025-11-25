@@ -24,7 +24,7 @@ import io
 # If you want to use a default CSV file, put the CSV in the same folder as this script
 # and set DEFAULT_PATH = "iso_cred.csv" (or the filename you used).
 # Alternatively, use the sidebar Upload control to load any CSV without editing this file.
-DEFAULT_PATH = "C:\\Users\\LENOVO\\OneDrive\\Desktop\\credit_card\\credit_card.csv"
+DEFAULT_PATH = "https://raw.githubusercontent.com/paawan-pawar/Credit_Card_Fraud_detection-Anomaly_Detection-/main/credit_card.csv"
 
 st.set_page_config(page_title="IsolationForest Explorer", layout="wide")
 st.title("IsolationForest — Interactive Anomaly Detection Explorer")
